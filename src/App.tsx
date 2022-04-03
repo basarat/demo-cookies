@@ -7,7 +7,10 @@ import './App.css';
 const App = () => (
   <Switch>
     <Route exact={true} path="/" component={Home} />
+    <Route exact={true} path="/dummy" component={() => null} />
   </Switch>
 );
 
 export default App;
+
+

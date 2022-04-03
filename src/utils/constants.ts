@@ -1,0 +1,1 @@
+export const HomeExperiment = 'HomeExperiment';
